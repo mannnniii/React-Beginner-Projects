@@ -1,0 +1,23 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: whitesmoke;
+}
+.Increment,.decrement,.btn{
+  color: white;
+  font-size: 18px;
+  width: 50px;
+  background-color: crimson;
+border-radius: 5px ;
+border: 2px solid black;
+}
